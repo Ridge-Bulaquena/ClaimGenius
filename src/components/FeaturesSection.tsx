@@ -49,7 +49,7 @@ const FeaturesSection = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
-            <div key={index} className="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col">
+            <div key={index} className="bg-slate-50 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1 flex flex-col">
               <div className="flex justify-center md:justify-start">{feature.icon}</div>
               <h3 className="text-2xl font-semibold text-gray-800 mt-2 mb-3">{feature.title}</h3>
               <p className="text-gray-600 mb-4 flex-grow">{feature.description}</p>

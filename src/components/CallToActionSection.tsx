@@ -12,11 +12,11 @@ const CallToActionSection = () => {
         <p className="max-w-xl mx-auto text-lg text-sky-100 mb-10">
           Stop letting claim denials eat into your revenue. Discover how ClaimGenius can transform your practice's financial health.
         </p>
-        <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white px-10 py-4 text-xl shadow-lg hover:shadow-xl transition-shadow">
+        <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white px-10 py-4 text-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105">
           Request Your Free Demo
         </Button>
          <p className="mt-6 text-sm text-sky-200">
-            Or call us at <a href="tel:+18005551234" className="underline hover:text-white">+1 (800) 555-1234</a> to speak with an expert.
+            Or call us at <a href="tel:+18005551234" className="underline hover:text-white transition-colors duration-300 ease-in-out">+1 (800) 555-1234</a> to speak with an expert.
         </p>
       </div>
     </section>

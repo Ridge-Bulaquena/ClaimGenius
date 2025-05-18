@@ -16,25 +16,25 @@ const HeroSection = () => {
           Our end-to-end claim management system leverages predictive analytics to slash denial rates, automate corrections, and illuminate your revenue cycle.
         </p>
         <div className="flex justify-center space-x-4">
-          <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 text-lg">
+          <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-3 text-lg transition-all duration-300 ease-in-out transform hover:scale-105">
             Request a Demo
           </Button>
-          <Button size="lg" variant="outline" className="text-sky-600 border-sky-600 hover:bg-sky-50 hover:text-sky-700 px-8 py-3 text-lg">
+          <Button size="lg" variant="outline" className="text-sky-600 border-sky-600 hover:bg-sky-50 hover:text-sky-700 px-8 py-3 text-lg transition-all duration-300 ease-in-out transform hover:scale-105">
             Learn More
           </Button>
         </div>
         <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1">
                 <ShieldCheck size={40} className="text-sky-500 mb-3"/>
                 <h3 className="text-xl font-semibold text-gray-700 mb-1">Reduce Denials</h3>
                 <p className="text-gray-500 text-sm">Proactively identify and fix errors before submission.</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1">
                 <Zap size={40} className="text-emerald-500 mb-3"/>
                 <h3 className="text-xl font-semibold text-gray-700 mb-1">Automate Corrections</h3>
                 <p className="text-gray-500 text-sm">Streamline workflows with intelligent automation.</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow">
+            <div className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1">
                 <TrendingUp size={40} className="text-amber-500 mb-3"/>
                 <h3 className="text-xl font-semibold text-gray-700 mb-1">Boost Revenue</h3>
                 <p className="text-gray-500 text-sm">Optimize your billing process with real-time insights.</p>
